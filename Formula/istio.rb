@@ -9,7 +9,7 @@ class Istio < Formula
   depends_on "buildifier" => :build
 
   def install
-    system "make" # if this fails, try separate make/make install steps
+    system "make"
   end
 
   test do
